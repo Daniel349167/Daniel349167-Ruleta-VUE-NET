@@ -94,7 +94,7 @@ El proyecto utiliza tres tablas principales:
 
 ---
 
-Para más información, por favor contacta a [Daniel Ureta](https://github.com/danielureta).
+Para más información, por favor contacta a [Daniel Ureta](https://github.com/Daniel349167).
 
 ---
 
