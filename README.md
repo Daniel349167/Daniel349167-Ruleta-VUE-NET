@@ -1,4 +1,4 @@
-# Prueba Técnica – Daniel Ureta: El Juego de la Ruleta
+# El Juego de la Ruleta
 
 Este proyecto es una implementación del juego de la ruleta que cumple con los requisitos de la prueba técnica. El proyecto incluye una interfaz gráfica desarrollada en Vue.js 3 y una API REST implementada usando ASP.NET Core 8. El servidor web utilizado es IIS (Internet Information Service).
 
