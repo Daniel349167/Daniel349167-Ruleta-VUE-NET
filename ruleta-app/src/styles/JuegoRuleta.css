@@ -1,0 +1,141 @@
+.juego-ruleta {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+}
+
+
+.saldo-valor {
+  color: #0275d8; /* Color celeste oscuro para el saldo */
+}
+
+
+.juego-ruleta-card {
+  border-radius: 15px;
+}
+
+.juego-ruleta-h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Resto de estilos para la segunda página */
+.ruleta-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 20px;
+}
+
+.ruleta {
+  width: 100%;
+  height: 100%;
+}
+
+.girar {
+  animation: girar 5s linear;
+}
+
+.bola {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+
+.animar-bola {
+  animation: rebote 0.2s linear infinite;
+}
+
+.resultado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-group .btn {
+  border-radius: 0;
+}
+
+.btn-group .btn:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.btn-group .btn:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes rebote {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.alert {
+  transition: opacity 0.5s ease-in-out;
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1.5rem !important;
+}
+
+.text-center {
+  margin-bottom: 0.6rem !important;
+}
+
+.alert-success {
+  background-color: #28a745 !important;
+  color: #fff !important;
+  border-color: #28a745 !important;
+}
+
+.alert-danger {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+  border-color: #f5c6cb !important;
+  font-size: 1.15rem;
+  
+}
+
+.ganancia {
+  font-size: 1.32rem !important;
+  background-color: #39ff14 !important;
+  color: #f50a22 !important;
+  font-weight: bold;
+}
+
+.color {
+  color: #0275d8;
+  font-weight: bold;
+}
+
+.azul {
+  color: #0275d8;
+  font-size: 1.15rem;
+
+}
+

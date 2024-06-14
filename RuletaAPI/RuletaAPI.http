@@ -1,0 +1,6 @@
+@RuletaAPI_HostAddress = http://localhost:5174
+
+GET {{RuletaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
