@@ -34,8 +34,8 @@ La API REST implementada en ASP.NET Core 8 incluye los siguientes endpoints:
 
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/danielureta/Prueba-Tecnica-Juego-Ruleta.git
-   cd Prueba-Tecnica-Juego-Ruleta/frontend
+   git clone https://github.com/Daniel349167/Ruleta-VUE-NET.git
+   cd Ruleta-VUE-NET/ruleta-app
    ```
 
 2. Instalar dependencias:
@@ -52,8 +52,8 @@ La API REST implementada en ASP.NET Core 8 incluye los siguientes endpoints:
 
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/danielureta/Prueba-Tecnica-Juego-Ruleta.git
-   cd Prueba-Tecnica-Juego-Ruleta/backend
+   git clone https://github.com/Daniel349167/Ruleta-VUE-NET.git
+   cd Ruleta-VUE-NET/RuletaAPI
    ```
 
 2. Abrir el proyecto en Visual Studio.
