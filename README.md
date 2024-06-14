@@ -26,7 +26,6 @@ La API REST implementada en ASP.NET Core 8 incluye los siguientes endpoints:
 
 - **Frontend**: Vue.js 3
 - **Backend**: ASP.NET Core 8
-- **Servidor Web**: IIS (Internet Information Service)
 - **Base de Datos**: PostgreSQL
 
 ## Instalación y Configuración
