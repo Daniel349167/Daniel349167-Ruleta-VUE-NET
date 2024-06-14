@@ -70,7 +70,12 @@ El proyecto utiliza tres tablas principales:
 
 3. Configurar la cadena de conexión a la base de datos en `appsettings.json`.
 
-4. Construir y ejecutar la aplicación desde Visual Studio.
+4. Ejecutar las migraciones para crear y actualizar la base de datos en PostgreSQL:
+   ```sh
+   dotnet ef database update
+   ```
+
+6. Construir y ejecutar la aplicación desde Visual Studio.
 
 ## Uso
 
